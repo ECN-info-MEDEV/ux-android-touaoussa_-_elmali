@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DEVMO_AGRI_AI</string>
+    <string name="connexion">Connexion</string>
+    <string name="bienvenue_s">Bienvenue sur AGRI-AI</string>
+    <string name="commencer">Commencer</string>
+    <string name="tutoriel_su">Tutoriel sur l’application</string>
+</resources>
