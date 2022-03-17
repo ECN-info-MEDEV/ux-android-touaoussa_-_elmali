@@ -9,6 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DEVMO_AGRI_AI">
+        <activity android:name=".CreerCompteActivity"
+            android:label = "Créer Compte"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=
+                    "com.example.devmo_agri_ai.CreerCompteActivity" />
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
