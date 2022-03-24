@@ -114,7 +114,8 @@
         app:layout_constraintBottom_toBottomOf="@+id/rectangle_5"
         app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
         app:layout_constraintStart_toStartOf="@+id/rectangle_5"
-        app:layout_constraintTop_toTopOf="@+id/rectangle_5" />
+        app:layout_constraintTop_toTopOf="@+id/rectangle_5"
+        android:onClick="directAccess"/>
 
     <TextView
         android:id="@+id/tutoriel_su"
