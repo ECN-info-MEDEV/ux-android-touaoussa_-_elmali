@@ -16,6 +16,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void directAccess(View view) {
+        Intent intent = new Intent(this, NewsActivity.class);
+        startActivity(intent);
+    }
+
     public void launchCreationCompte(View view) {
         Log.d(LOG_TAG, "Button clicked!");
         Intent intent = new Intent(this, CreerCompteActivity.class);

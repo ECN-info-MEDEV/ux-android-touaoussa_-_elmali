@@ -67,7 +67,7 @@
       android:layout_marginStart="16dp"
       android:gravity="top"
       android:text="@string/nom_et_pr_n"
-      android:textAppearance="@style/nom_et_pr_n"
+      android:textAppearance="@string/nom_et_pr_n"
       android:textColor="#66000000"
       android:textSize="11sp"
       app:layout_constraintBottom_toBottomOf="@+id/rectangle_7"
@@ -120,7 +120,7 @@
       android:layout_marginStart="16dp"
       android:gravity="top"
       android:text="@string/adresseMail"
-      android:textAppearance="@style/adresseMail"
+      android:textAppearance="@string/adresseMail"
       android:textColor="#66000000"
       android:textSize="11sp"
       app:layout_constraintBottom_toBottomOf="@+id/rectangle_7adresseMail"
@@ -391,6 +391,7 @@
       app:layout_constraintBottom_toBottomOf="@+id/rectangle_5"
       app:layout_constraintEnd_toEndOf="@+id/rectangle_5"
       app:layout_constraintStart_toStartOf="@+id/rectangle_5"
-      app:layout_constraintTop_toTopOf="@+id/rectangle_5" />
+      app:layout_constraintTop_toTopOf="@+id/rectangle_5"
+      android:onClick="lunchLogin"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

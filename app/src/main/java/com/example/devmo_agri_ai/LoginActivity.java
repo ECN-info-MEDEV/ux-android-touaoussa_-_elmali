@@ -4,22 +4,18 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 
-public class CreerCompteActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_creer_compte);
+        setContentView(R.layout.activity_login);
     }
 
-    public void lunchLogin(View view) {
-        Intent intent = new Intent(this, LoginActivity.class);
+    public void loginAccess(View view) {
+        Intent intent = new Intent(this, NewsActivity.class);
         startActivity(intent);
-    }
-
-    public void launchAceuilPage(View view) {
     }
 }
